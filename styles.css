@@ -1,13 +1,3 @@
-p:nth-child(5) {
-   background: revert;
-   box-shadow: revert;
-   padding: revert;
-}
-
-a {
-   font-size: 12px;
-}
-
 /* TODO: Add styles here */
 
 /* Body styles */
@@ -36,4 +26,11 @@ border-radius: 5px;
 /* Anchor link styles */
 a {
 font-size: 12px;
+}
+
+/* Reset for the fifth child */
+p:nth-child(5) {
+background: revert;
+box-shadow: revert;
+padding: revert;
 }
